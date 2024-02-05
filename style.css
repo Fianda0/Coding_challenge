@@ -1,0 +1,97 @@
+/* creazione sfondo */
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* allineamento menu*/
+header, nav, footer{
+    text-align: center;
+}
+
+/* contenitore generale */
+#contenitore{
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 50px 100px 20px 100px;
+    width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+/* dimensione logo */
+.logo{
+    width: 400px;
+}
+
+/* valori titolo intestazione */
+.titolo{
+    display: block;
+    color: #00ff00 ;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* creazione sfondo menu nazigazione */
+nav > div{
+    background-color: #00ff00 ;
+    padding: 15px;
+}
+
+/* entità freccetta */
+.freccia::after{
+    content: "\27FC";
+}
+
+/* valori testo del menu centrale */
+section div{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* valori testo monopattino */
+section div:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carica-gino{
+    border-radius: 5px;
+    border: 1px solid orange;
+    background-color: orange;
+    width: 30%;
+    height: 25px;
+    margin: 0%;
+}
+
+.carica-mike{
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: green;
+    width: 60%;
+    height: 25px;
+    margin: 0%;
+}
+
+.carica-fede{
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: red;
+    width: 13%;
+    height: 25px;
+    margin: 0%;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-bottom: 100px;
+}
+
